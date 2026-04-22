@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #D71D24;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.hero-btn {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+  display: inline-block;
+  padding: 30px 30px;
+  background-color: #D71D24;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.hero-container {
+  background-image: url("images/hero-image-sema.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 701px;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  padding-top: 126px;
+    margin-left: 99px;
+}
+html {
+  font-size: 10px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 3.6rem;
+}
+.info-container {
+  display: flex;
+  justify-content:flex-start; 
+  margin-top: 100px;
+}
+.info-text {
+    margin-left: 99px;
+width: 500px;
+padding-right: 139px;
+}
+.nav-container {
+  display: flex;
+  background-color: #D71D24;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  justify-content: space-between;
+  margin-left: 99px;
+}
+nav ul li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  display: flex;
+
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
