@@ -86,11 +86,20 @@ a {
   align-items: center;
   margin-top: -10px;
 }
+
 .hero-text {
   padding-top: 126px;
     margin-left: 99px;
     line-height: 1.5;
     height:265px;
+}
+@media (max-width: 500px) {
+html {
+  font-size: 10px;
+  width: 402px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 html {
   font-size: 10px;
@@ -99,13 +108,21 @@ html {
   margin-right: auto;
 }
 
+@media (max-width: 500px) {
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    
+}
+}
+
 h1{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 4.8rem;
     
 }
-
 h2 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -116,11 +133,38 @@ h3 {
     font-weight: 500;
     font-size: 2rem;
 }
+@media (max-width: 500px) {
+.info-container {
+  justify-content: center;
+  flex-direction: column;
+  
+}
+}
+
 .info-container {
   display: flex;
   justify-content:flex-start; 
   margin-top: 100px;
 }
+@media (max-width: 500px) {
+.info-container img {
+  width: 342px;
+  height: 254px;
+  display flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 27px;
+}
+}
+@media (max-width: 500px) {
+.info-text {
+display: flex;
+margin-left: -10px;
+
+flex-direction: column;
+}
+}
+
 .info-text {
     margin-left: 99px;
 width: 540px;
@@ -174,10 +218,22 @@ nav ul li {
   
 
 }
+@media (max-width: 500px) {
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+}
 p {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
+}
+@media (max-width: 500px) {
+.socials {
+ 
+}
 }
 .socials {
   display: flex;
@@ -187,7 +243,6 @@ p {
   margin-top: 100px;
   flex-direction: column;
 }
-
 .socials img {
   width: 95px;
   height: 95px;
