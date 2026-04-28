@@ -28,6 +28,41 @@ a {
   text-decoration: none;
   margin-top: 10px;
 }
+.copyright {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #3F3F3F;
+  height:50px;
+  width:1440px;
+  margin-top: -20px;
+}
+.copyright p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.footer{
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 65px ;
+  height: 375px;
+  width:1440px;
+  margin-top: 75px;
+}
+.footer-column-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+  margin-left: 100px;  
+}
 .hero-btn {
     font-family: "inter", sans-serif;
     font-weight: 500;
@@ -45,14 +80,17 @@ a {
   background-size: cover;
   background-position: center;
   height: 701px;
-  
+  width: 1440px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -10px;
 }
 .hero-text {
   padding-top: 126px;
     margin-left: 99px;
+    line-height: 1.5;
+    height:265px;
 }
 html {
   font-size: 10px;
@@ -65,12 +103,18 @@ h1{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 4.8rem;
+    
 }
 
 h2 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 3.6rem;
+}
+h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
 }
 .info-container {
   display: flex;
@@ -79,16 +123,27 @@ h2 {
 }
 .info-text {
     margin-left: 99px;
-width: 500px;
+width: 540px;
 padding-right: 139px;
 }
 nav {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  
+}
+.nav-btn{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #D71D24;
+  text-decoration: none;
 }
 .nav-container {
-  display: flex;
+  
   background-color: #D71D24;
 }
 .nav-links {
@@ -96,6 +151,9 @@ nav {
   justify-content: space-between;
   width: 400px;
   align-items: center;
+  margin-right: 99px;
+  
+  
 }
 nav ul {
   display: flex;
@@ -120,4 +178,25 @@ p {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.socials img {
+  width: 95px;
+  height: 95px;
+  margin: 50px;
+  
+}
+.socials-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
